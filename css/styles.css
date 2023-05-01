@@ -4,26 +4,23 @@
 
 .link {
     text-decoration: none;
-    color: #434455;
-}
-
-.link:hover,
-.link:focus {
-    color: #404bbf;
 }
 
 :root {
     --primary-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
-    --primary-text-color: rgba(0, 0, 0, 0.8);
-    --primary-background-color: #ffffff;
+    --primary-text-color: #434455;
+    --primary-white-color: #ffffff;
     --accent-color: #404bbf;
+    --secondary-background-color: #2E2F42;
+    --team-background-color: #F4F4FD;
+    --btn-color: #4D5AE5;
 }
 
 body {
-    font-family: Roboto, sans-serif;
-    color: #434455;
-    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
 }
 
 .logo {
@@ -38,16 +35,16 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    color: #4D5AE5;
+    color: var(--accent-color);
 }
 
 .logo-studio {
-    color: #2E2F42;
+    color: var(--secondary-background-color);
 }
 
 .menu-item:hover,
 .menu-item:focus {
-    color: #404bbf;
+    color: var(--accent-color);
 }
 
 .menu-item {
@@ -56,7 +53,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--secondary-background-color);
 }
 
 .contacts {
@@ -67,6 +64,11 @@ body {
     font-style: normal;
 }
 
+.address-item:hover,
+.address-item:focus {
+    color: var(--accent-color);
+}
+
 .address-item {
     list-style: none;
     text-decoration: none;
@@ -74,11 +76,11 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--primary-text-color);
 }
 
 .main-section {
-    background-color: #2E2F42;
+    background-color: var(--secondary-background-color);
 }
 
 .title {
@@ -87,7 +89,7 @@ body {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #ffffff;
+    color: var(--primary-white-color);
 }
 
 .button {
@@ -96,14 +98,14 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
-    background-color: #4D5AE5;
+    color: var(--primary-white-color);
+    background-color: var(--btn-color);
     cursor: pointer;
 }
 
 .button:hover,
 .button:focus {
-    background-color: #404bbf;
+    background-color: var(--accent-color);
 }
 
 .top-principles {
@@ -111,7 +113,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--secondary-background-color);
 }
 
 .principle-descript {
@@ -119,7 +121,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--primary-text-color);
 }
 
 .title-section {
@@ -129,15 +131,15 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--secondary-background-color);
 }
 
 .team-section {
-    background-color: #F4F4FD;
+    background-color: var(--team-background-color);
 }
 
 .img {
-    background-color: #FFFFFF;
+    background-color: var(--primary-white-color);
 }
 
 .name-emp {
@@ -145,18 +147,18 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--secondary-background-color);
 }
 
 .team-descript {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--primary-text-color);
 }
 
 .logo-foot-studio {
-    color: #F4F4FD;
+    color: var(--team-background-color);
 }
 
 .buttons {
@@ -166,15 +168,15 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
-    background-color: #f4f4fd;
+    color: var(--btn-color);
+    background-color: var(--team-background-color);
     cursor: pointer;
 }
 
 .buttons:hover,
 .buttons:focus {
-    color: #ffffff;
-    background-color: #404bbf
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
 }
 
 .name-porto {
@@ -182,27 +184,27 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--secondary-background-color);
 }
 
 .descript-porto {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--primary-text-color);
 }
 
 /*footer*/
 .footer {
-    background-color: #2E2F42;
+    background-color: var(--secondary-background-color);
 }
 
 .logo-foot-studio {
-    color: #f4f4fd;
+    color: var(--team-background-color);
 }
 
 .footer-descript {
-    color: #F4F4FD;
+    color: var(--team-background-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
