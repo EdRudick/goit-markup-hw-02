@@ -35,7 +35,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    color: var(--accent-color);
+    color: var(--btn-color);
 }
 
 .logo-studio {
